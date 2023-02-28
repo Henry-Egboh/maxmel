@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Alert, Row, Col, Button, Card, Container} from 'react-bootstrap';
+import {Alert, Row, Col, Button, Card, Container, Badge} from 'react-bootstrap';
 import sidePic from '../Assets/martin-baron-RBmlPdZ13nE-unsplash.jpg';
 import { BoxArrowInRight } from 'react-bootstrap-icons';
 
@@ -21,11 +21,11 @@ function AlertDismissibleExample() {
 //   main component
 function Main() {
     return (
-        <div>
-            <Container>
+        <main>
+            <Container className='my-5'>
             {/* side bar col 1 */}
             <Row>
-                <Col xs={12} md={4}>
+                <Col xs={12} md={4} className='mb-4 mb-lg-0'>
                 <aside>
                     {/* alert component */}
                     <div>
@@ -53,12 +53,45 @@ function Main() {
                  {/* main col 2*/}
                 <Col xs={12} md={8}>
                 <main>
-                    
+                    {/* header with badge */}
+                    <div className='d-flex align-items-center'>
+                        <h3 className='color-text'>How to benefit from Technology</h3>
+                            <Badge bg='secondary' className='ms-4'>plus<sup className='color-text-sub'>+</sup></Badge>
+                    </div>
+                    {/* p tag */}
+                    <div>
+                        <p>We are glad you took the decision. Thanks</p>
+                    </div>
+
+                    <div>
+                        <p>
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                        </p>
+
+                        <p>
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                        </p>
+
+                        <p>
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+                            SOmething so something but ypu know we can alwasy give you the best so you dont have to worry
+
+                        </p>
+                    </div>
                 </main>
                 </Col>
             </Row>
             </Container>
-        </div>
+        </main>
     );
 }
 export default Main;

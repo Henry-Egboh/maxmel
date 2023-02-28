@@ -4,29 +4,38 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+/* styling footer text */
 .footer-text {
   font-weight: 300;
   font-size: 0.8rem;
 }
-
+/* color for logo */
 .color-text-sub {
   color: #edc04d;
 }
 
+/* color for logo */
 .color-text {
   color: hsla(267deg, 77%, 68%, 0.9);
 }
-
+/* logo size */
 .logo {
   width: 1.6rem;
   height: 1.6rem;
 }
 
+/* join today button in side card content */
 .color-btn {
   background-color: hsla(267deg, 77%, 68%, 0.9);
   color: #fff;
 }
 
+/* icon in the card aside content */
 .flo {
   float: right;
+}
+
+/* color for footer text with logo */
+.monospace-color {
+  color: #849384;
 }
