@@ -1,10 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../Assets/target.png';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import {Nav, Navbar, NavDropdown, Button, Form } from 'react-bootstrap';
+// import logo from '../Assets/target.png';
+import {ChevronBarRight} from 'react-bootstrap-icons';
 
 const NavbarComp = () => {
     return ( 
@@ -34,7 +31,11 @@ const NavbarComp = () => {
             </Navbar>
 
               {/* logo */}
-            <img alt='logo' src={logo} className="logo" />
+            {/* <img alt='logo' src={logo} className="logo" /> */}
+            <div className='d-flex align-items-center'>
+                <ChevronBarRight className='fs-2'/>
+                <h4 className='color-text'>Max<span className='color-text-sub'>mel</span></h4>
+            </div>
 
             <div>
             <Form className='d-flex align-items-center gap-2'>

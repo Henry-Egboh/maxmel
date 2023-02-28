@@ -10,11 +10,11 @@ const Footer = () => {
           <Container >
                 <div className='w-25 pt-5'>
                     <div className='d-flex align-items-center'>
-                        <ChevronBarRight className='h4'/>
+                        <ChevronBarRight className='fs-2'/>
                         <h4 className='color-text'>Max<span className='color-text-sub'>mel</span></h4>
                     </div>
                     <div>
-                        <p className='font-monospace'>The technology of the now, see it in knowing.
+                        <p className='font-monospace text-light'>The technology of the now, see it in knowing.
                         Re-cycle can make what we do efficient and modern if you care</p>
                     </div>
                 </div>
