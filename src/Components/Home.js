@@ -2,6 +2,7 @@ import Footer from './Footer';
 import NavbarComp from './NavbarComp';
 import Main from './Main';
 import Header from './Header';
+import Section from './Section';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <NavbarComp />
             <Header />
             <Main />
+            <Section />
             <Footer />
         </div>
     );

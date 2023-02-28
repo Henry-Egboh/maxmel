@@ -1,22 +1,6 @@
-import { useState } from 'react';
 import {Alert, Row, Col, Button, Card, Container, Badge} from 'react-bootstrap';
 import sidePic from '../Assets/martin-baron-RBmlPdZ13nE-unsplash.jpg';
 import { BoxArrowInRight } from 'react-bootstrap-icons';
-
-
-// function to display Alert component
-function AlertDismissibleExample() {
-    const [show, setShow] = useState(true);
-  
-    if (show) {
-      return (
-        <Alert variant="success" onClose={() => setShow(false)} dismissible>
-          <Alert.Heading className='fs-5'>West Side Consulting</Alert.Heading>
-        </Alert>
-      );
-    }
-    return <Button onClick={() => setShow(true)} className='btn-secondary'>Show Alert</Button>;
-  }
 
 //   main component
 function Main() {
@@ -25,11 +9,13 @@ function Main() {
             <Container className='my-5'>
             {/* side bar col 1 */}
             <Row>
-                <Col xs={12} md={4} className='mb-4 mb-lg-0'>
+                <Col xs={12} md={4} className='mb-5 mb-lg-0'>
                 <aside>
                     {/* alert component */}
                     <div>
-                        <AlertDismissibleExample />
+                        <Alert variant="success">
+                            <Alert.Heading className='fs-5'>West Side Consulting</Alert.Heading>
+                        </Alert>
                     </div>
 
                     {/* card with images */}
@@ -62,7 +48,7 @@ function Main() {
                     <div>
                         <p>We are glad you took the decision. Thanks</p>
                     </div>
-
+                        {/* text content */}
                     <div>
                         <p>
                             SOmething so something but ypu know we can alwasy give you the best so you dont have to worry

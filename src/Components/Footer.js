@@ -6,8 +6,9 @@ import { ChevronBarRight } from 'react-bootstrap-icons';
 
 const Footer = () => {
     return ( 
-        <div className='bg-dark text-light'>
+        <footer className='bg-dark text-light'>
           <Container >
+            {/* company logo with text at footer */}
                 <div className='w-25 pt-5'>
                     <div className='d-flex align-items-center'>
                         <ChevronBarRight className='fs-2'/>
@@ -72,7 +73,7 @@ const Footer = () => {
                     </Col>
                 </Row>     
           </Container>
-        </div>
+        </footer>
      );
 }
  
