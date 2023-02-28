@@ -39,3 +39,8 @@
 .monospace-color {
   color: #849384;
 }
+
+/* showcase bg */
+.showcase-bg {
+  background-color: hsla(118deg, 45%, 69%, 0.2);
+}
