@@ -10,7 +10,7 @@
 }
 
 .color-text-sub {
-  color: #eded11;
+  color: #edc04d;
 }
 
 .color-text {
@@ -20,4 +20,13 @@
 .logo {
   width: 1.6rem;
   height: 1.6rem;
+}
+
+.color-btn {
+  background-color: hsla(267deg, 77%, 68%, 0.9);
+  color: #fff;
+}
+
+.flo {
+  float: right;
 }
