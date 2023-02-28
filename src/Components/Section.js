@@ -1,15 +1,15 @@
-import { Row, Col, Container, Badge } from 'react-bootstrap';
-
+import { Row, Col, Container } from 'react-bootstrap';
+import { CircleSquare } from 'react-bootstrap-icons';
 
 const Section = () => {
     return ( 
             <section>
-                <Container className='my-5'>
-                    <Row className='my-5'>
+                <Container className='py-5 my-5'>
+                    <Row className=''>
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
-                            <h4 className='color-text me-5'>Frameworks</h4>
-                            
+                            <CircleSquare className='fs-3 me-3 color-text-sub'/>
+                            <h4 className='color-text'>Frameworks</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
                         <p>In the beginning as a learner it will be difficulft but you need to flow with the process in order to remain focused.</p>
@@ -20,8 +20,8 @@ const Section = () => {
 
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
-                            <h4 className='color-text me-5'>Frameworks</h4>
-                            
+                            <CircleSquare className='fs-3 me-3 color-text-sub'/>
+                            <h4 className='color-text'>Frameworks</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
                         <p>In the beginning as a learner it will be difficulft but you need to flow with the process in order to remain focused.</p>
@@ -32,8 +32,8 @@ const Section = () => {
 
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
-                            <h4 className='color-text me-5'>Frameworks</h4>
-                            
+                            <CircleSquare className='fs-3 me-3 color-text-sub'/>
+                            <h4 className='color-text'>Frameworks</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
                         <p>In the beginning as a learner it will be difficulft but you need to flow with the process in order to remain focused.</p>

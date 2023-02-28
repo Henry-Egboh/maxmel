@@ -6,7 +6,7 @@ import { BoxArrowInRight } from 'react-bootstrap-icons';
 function Main() {
     return (
         <main>
-            <Container className='my-5'>
+            <Container className='mt-5 pt-5'>
             {/* side bar col 1 */}
             <Row>
                 <Col xs={12} md={4} className='mb-5 mb-lg-0'>
