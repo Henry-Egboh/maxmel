@@ -79,7 +79,7 @@ const Footer = () => {
                       {/* social icons */}
                       <Col xs={12} md={4}>
                           <p>Follow us:</p>
-                          <div className='d-flex gap-4'>
+                          <div className='d-flex gap-4 mb-3'>
                                 <Link to='/' className='footer-text'><Linkedin /></Link>
                                 <Link to='/' className='footer-text'><Whatsapp /></Link>
                                 <Link to='/' className='footer-text'><Facebook /></Link>

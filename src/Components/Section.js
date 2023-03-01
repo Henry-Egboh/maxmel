@@ -4,7 +4,7 @@ import { CircleSquare } from 'react-bootstrap-icons';
 const Section = () => {
     return ( 
             <section>
-                <Container className='py-5 my-5'>
+                <Container className='py-5 my-xs-2 my-sm-5'>
                     <Row className=''>
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
