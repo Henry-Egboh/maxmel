@@ -46,7 +46,7 @@ function Main() {
                     </div>
                     {/* p tag */}
                     <div>
-                        <p>We are glad you took the decision. Thanks</p>
+                        <p className='text-success'>We are glad you took the decision. Thanks</p>
                     </div>
                         {/* text content */}
                     <div>

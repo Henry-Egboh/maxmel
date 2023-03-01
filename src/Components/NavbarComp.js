@@ -9,7 +9,7 @@ const NavbarComp = () => {
             <Navbar bg="white" expand="lg">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="">
+                  <Nav>
                     <Nav.Link href="#home">Source</Nav.Link>
                     <Nav.Link href="#link">Administration</Nav.Link>
                     <Nav.Link href="#home">Kindle</Nav.Link>

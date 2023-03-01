@@ -21,7 +21,7 @@ const Section = () => {
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
                             <CircleSquare className='fs-3 me-3 color-text-sub'/>
-                            <h4 className='color-text'>Frameworks</h4>
+                            <h4 className='color-text'>Javascript</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
                         <p>In the beginning as a learner it will be difficulft but you need to flow with the process in order to remain focused.</p>
@@ -33,7 +33,7 @@ const Section = () => {
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
                             <CircleSquare className='fs-3 me-3 color-text-sub'/>
-                            <h4 className='color-text'>Frameworks</h4>
+                            <h4 className='color-text'>Server Courses</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
                         <p>In the beginning as a learner it will be difficulft but you need to flow with the process in order to remain focused.</p>
