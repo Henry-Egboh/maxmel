@@ -6,7 +6,7 @@ const Section = () => {
             <section>
                 <Container className='py-5 my-xs-2 my-sm-5'>
                     <Row className=''>
-                        <Col xs={12} sm={6} lg={4}>
+                        <Col xs={12} sm={6} lg={4} className='mb-3 mb-lg-0'>
                         <div className='d-flex align-items-center'>
                             <CircleSquare className='fs-3 me-3 color-text-sub'/>
                             <h4 className='color-text'>Frameworks</h4>
@@ -18,7 +18,7 @@ const Section = () => {
                         </p>
                         </Col>
 
-                        <Col xs={12} sm={6} lg={4}>
+                        <Col xs={12} sm={6} lg={4} className='mb-3 mb-lg-0'>
                         <div className='d-flex align-items-center'>
                             <CircleSquare className='fs-3 me-3 color-text-sub'/>
                             <h4 className='color-text'>Javascript</h4>

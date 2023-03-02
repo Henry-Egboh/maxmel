@@ -8,7 +8,7 @@
 .footer-text {
   font-weight: 300;
   font-size: 0.8rem;
-  color: #ebedd7;
+  color: #fff;
 }
 /* color for logo */
 .color-text-sub {
@@ -46,6 +46,16 @@
   background-color: hsla(118deg, 45%, 69%, 0.2);
 }
 
-/* .wrapper {
-  text-align: center;
-} */
+/* form label alignment */
+.label-width {
+  width: 10rem;
+}
+/* form field size */
+.input-width {
+  width: 28rem;
+}
+
+.asterisk-size {
+  /* width: 0.5rem; */
+  font-size: 0.5rem;
+}

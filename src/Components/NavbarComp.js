@@ -13,7 +13,7 @@ const NavbarComp = () => {
                     <Nav.Link href="#home">Source</Nav.Link>
                     <Nav.Link href="#link">Administration</Nav.Link>
                     <Nav.Link href="#home">Kindle</Nav.Link>
-                    <Nav.Link href="#link">Register</Nav.Link>
+                    <Nav.Link href="/Components/Register.js">Register</Nav.Link>
                     <NavDropdown title="Vendors" id="basic-nav-dropdown">
                       <NavDropdown.Item href="#action/3.1">Camp Endem</NavDropdown.Item>
                       <NavDropdown.Item href="#action/3.2">Rose Dam</NavDropdown.Item>
