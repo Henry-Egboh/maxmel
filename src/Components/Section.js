@@ -1,5 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap';
-import { CircleSquare } from 'react-bootstrap-icons';
+import { CircleSquare, Dice2, SlashCircle } from 'react-bootstrap-icons';
 
 const Section = () => {
     return ( 
@@ -20,7 +20,7 @@ const Section = () => {
 
                         <Col xs={12} sm={6} lg={4} className='mb-3 mb-lg-0'>
                         <div className='d-flex align-items-center'>
-                            <CircleSquare className='fs-3 me-3 color-text-sub'/>
+                            <SlashCircle className='fs-3 me-3 text-danger'/>
                             <h4 className='color-text'>Javascript</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>
@@ -32,7 +32,7 @@ const Section = () => {
 
                         <Col xs={12} sm={6} lg={4}>
                         <div className='d-flex align-items-center'>
-                            <CircleSquare className='fs-3 me-3 color-text-sub'/>
+                            <Dice2 className='fs-3 me-3 text-dark'/>
                             <h4 className='color-text'>Server Courses</h4>
                         </div>
                         <p>The tech of the now is what we get when we begin to investigate our internet to better improve the lives ansd properties of a generation.</p>

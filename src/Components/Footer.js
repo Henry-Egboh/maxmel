@@ -75,7 +75,7 @@ const Footer = () => {
                 </Row>
 
                      {/*base footer  */}
-                     <Row className='footer-text align-items-center my-5 pt-3 pb-5'>
+                     <Row className='footer-text align-items-center pt-3 pb-5'>
                       {/* social icons */}
                       <Col xs={12} md={4}>
                           <p>Follow us:</p>

@@ -4,20 +4,28 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+:root {
+  --color-text:   hsla(267deg, 77%, 68%, 0.9);
+  --color-text-sub:   #edc04d;
+  --white: #fff;
+  --monospace-color: #849384;
+  --showcase-bg: hsla(118deg, 45%, 69%, 0.2);
+}
+
 /* styling footer text */
 .footer-text {
   font-weight: 300;
   font-size: 0.8rem;
-  color: #fff;
+  color: var(--white);
 }
 /* color for logo */
 .color-text-sub {
-  color: #edc04d;
+  color: var(--color-text-sub);
 }
 
 /* color for logo */
 .color-text {
-  color: hsla(267deg, 77%, 68%, 0.9);
+  color: var(--color-text);
 }
 /* logo size */
 .logo {
@@ -27,8 +35,8 @@
 
 /* join today button in side card content */
 .color-btn {
-  background-color: hsla(267deg, 77%, 68%, 0.9);
-  color: #fff;
+  background-color: var(--color-text);
+  color: var(--white);
 }
 
 /* icon in the card aside content */
@@ -38,12 +46,12 @@
 
 /* color for footer text with logo */
 .monospace-color {
-  color: #849384;
+  color: var(--monospace-color);
 }
 
 /* showcase bg */
 .showcase-bg {
-  background-color: hsla(118deg, 45%, 69%, 0.2);
+  background-color: var(--showcase-bg);
 }
 
 /* form label alignment */
@@ -52,10 +60,14 @@
 }
 /* form field size */
 .input-width {
-  width: 28rem;
+  width: 30rem;
 }
 
 .asterisk-size {
   /* width: 0.5rem; */
   font-size: 0.5rem;
+}
+
+.wrapper-div {
+  width: 40rem;
 }
