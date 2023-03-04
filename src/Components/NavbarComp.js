@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import {Nav, Navbar, NavDropdown, Button, Form } from 'react-bootstrap';
 import {ChevronBarRight} from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 const NavbarComp = () => {
     return ( 
@@ -30,10 +31,12 @@ const NavbarComp = () => {
             </Navbar>
 
               {/* logo */}
+            <Link to="/" className='text-decoration-none'>
             <div className='d-flex align-items-center'>
-                <ChevronBarRight className='fs-2'/>
+                <ChevronBarRight className='fs-2 text-dark'/>
                 <h4 className='color-text'>Max<span className='color-text-sub'>mel</span></h4>
             </div>
+            </Link>
               {/* search box */}
             <div>
             <Form className='d-flex align-items-center gap-2'>

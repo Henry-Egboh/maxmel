@@ -12,7 +12,7 @@ const Footer = () => {
             {/* company logo with text at footer */}
                 <div className='w-25 pt-5'>
                     <div className='d-flex align-items-center'>
-                        <ChevronBarRight className='fs-2'/>
+                        <ChevronBarRight className='fs-2 text-light'/>
                         <h4 className='color-text'>Max<span className='color-text-sub'>mel</span></h4>
                     </div>
                     <div>
