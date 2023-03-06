@@ -1,13 +1,13 @@
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import FormComp from "./FormComp";
-import NavbarComp from "./NavbarComp";
+// import NavbarComp from "./NavbarComp";
 
 const Register = () => {
     return (
         <main>
-            <NavbarComp />
+            {/* <NavbarComp /> */}
             <FormComp />
-            <Footer />
+            {/* <Footer /> */}
         </main>
     )
 }

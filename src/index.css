@@ -71,3 +71,36 @@
 .wrapper-div {
   width: 50rem;
 }
+
+/*    MEDIA QUERY */
+/* ======================================================================================== */
+
+@media screen {
+  .label-width {
+    display: block;
+    width: 100%;
+  }
+  /* form field size */
+  .input-width {
+  width: 100%;
+  }
+/* wrapping div for registration forms */
+  .wrapper-div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .label-width {
+    width: 10rem;
+    display: inline-block;
+  }
+  /* form field size */
+  .input-width {
+   width: 30rem;
+  }
+/* wrapping div for registration forms */
+  .wrapper-div {
+    width: 50rem;
+  }
+}

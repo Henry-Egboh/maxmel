@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import { Asterisk } from "react-bootstrap-icons";
 import { useState } from "react";
 import { validateEmail } from "./utils";
@@ -24,7 +24,6 @@ const FormComp = () => {
     const [lga, setLga] = useState("");
     const [state, setState] = useState("");
     const [specialization, setSpecialization] = useState("");
-    const [gender, setGender] = useState("");
     const [check, setCheck] = useState("");
 
     // form validation
@@ -47,7 +46,6 @@ const FormComp = () => {
         setLga("");
         setState("");
         setSpecialization("");
-        setGender("");
         setCheck("");
     }
 
@@ -60,8 +58,7 @@ const FormComp = () => {
     }
     return (
         <div>
-            <div className="wrapper my-5">
-                <Container className="d-flex justify-content-center">
+            <div className="wrapper my-lg-5 d-flex justify-content-center">
                     <div className="wrapper-div d-flex flex-column align-items-center border border-3 border-secondary p-5 shadow bg-body rounded">
                         <h4 className="color-text">Fill Out the Fields</h4>
                         <p className="text-muted">The fields marked <sup><Asterisk className="text-danger asterisk-size" /></sup> are compulsory</p>
@@ -69,7 +66,11 @@ const FormComp = () => {
                         <form action="" className="d-flex flex-column gap-3" onSubmit={handleSubmit}>
                                 {/* first name */}
                                 <div>
-                                    <label htmlFor="firstName" className="label-width">FirstName <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    htmlFor="firstName" 
+                                    className="label-width">
+                                        <span className="d-flex gap-2 mb-2">FirstName <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     id="firstName" 
@@ -81,7 +82,11 @@ const FormComp = () => {
                                 </div>
                                 {/* last name */}
                                 <div>
-                                    <label htmlFor="lastName" className="label-width">LastName :</label>
+                                    <label 
+                                    htmlFor="lastName" 
+                                    className="label-width">
+                                        <span className="d-flex gap-2 mb-2">LastName <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     id='lastName' 
@@ -92,7 +97,11 @@ const FormComp = () => {
                                 </div>
                                 {/* email */}
                                 <div>
-                                    <label htmlFor="email" className="label-width">E-mail <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    htmlFor="email" 
+                                    className="label-width">
+                                        <span className="d-flex gap-2 mb-2">E-mail <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     id="email" 
@@ -104,7 +113,11 @@ const FormComp = () => {
                                 </div>
                                 {/* password */}
                                 <div>
-                                    <label htmlFor="password" className="label-width">Password <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    htmlFor="password" 
+                                    className="label-width">
+                                        <span className="d-flex gap-2 mb-2">Password <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     name="password" 
@@ -122,7 +135,11 @@ const FormComp = () => {
                                 </div>
                                 {/* date of birth */}
                                 <div>
-                                    <label className="label-width" htmlFor='dateOfBirth'>Date of birth <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    className="label-width" 
+                                    htmlFor='dateOfBirth'>
+                                        <span className="d-flex gap-2 mb-2">Date of birth <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     type="date"
@@ -133,7 +150,11 @@ const FormComp = () => {
                                 </div>
                                 {/* LGA */}
                                 <div>
-                                    <label className="label-width" htmlFor="lga">LGA <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    className="label-width" 
+                                    htmlFor="lga">
+                                        <span className="d-flex gap-2 mb-2">LGA <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <input 
                                     className="border border-0 shadow bg-body p-3 rounded input-width py-2 ps-4" 
                                     list="listLGA" 
@@ -155,7 +176,11 @@ const FormComp = () => {
                                 </div>
                                 {/* state */}
                                 <div>
-                                    <label className="label-width" htmlFor="state">State of Origin <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                    <label 
+                                    className="label-width" 
+                                    htmlFor="state">
+                                        <span className="d-flex gap-2 mb-2">State of Origin <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
                                     <select 
                                     className=" border border-0 shadow bg-body p-3 rounded input-width py-2" 
                                     id="state" 
@@ -172,7 +197,11 @@ const FormComp = () => {
                                 </div>
                                 {/* specialization */}
                                 <div>
-                                <label className="label-width" htmlFor="specialization">Specialization <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
+                                <label 
+                                className="label-width" 
+                                htmlFor="specialization">
+                                    <span className="d-flex gap-2 mb-2">Specialization <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                </label>
                                     <select 
                                     className=" border border-0 shadow bg-body p-3 rounded input-width py-2" 
                                     id="specialization" 
@@ -188,17 +217,20 @@ const FormComp = () => {
                                     </select>
                                 </div>
                                 {/* gender */}
-                                <div className="d-flex">
-                                    <label className="label-width">Gender <sup><Asterisk className="text-danger asterisk-size" /></sup> :</label>
-                                    <fieldset className="input-width">
+                                <div className="d-lg-flex">
+                                    <label 
+                                    className="label-width">
+                                        <span className="d-flex gap-2 mb-2">Gender <sup><Asterisk className="text-danger asterisk-size" /></sup> :</span>
+                                    </label>
+                                    <fieldset className="input-width ">
                                         <span className="me-4">
                                             <input 
                                             className="me-3" 
                                             id="male" 
                                             type="radio" 
                                             name="gender" 
-                                            value={gender} 
-                                            onChange={e => setGender(e.target.value)}></input>
+                                            value="male"
+                                            readOnly= {true}/>
                                             <label htmlFor="male"> Male</label>
                                         </span>
                                         <span>
@@ -206,9 +238,9 @@ const FormComp = () => {
                                             className="me-3" 
                                             id="female" 
                                             type="radio" 
-                                            name="gender" 
-                                            value={gender} 
-                                            onChange={e => setGender(e.target.value)}></input>
+                                            name="gender"
+                                            value="male"
+                                            readOnly= {true} />
                                             <label htmlFor="female"> Female</label>
                                         </span>
                                     </fieldset>
@@ -218,10 +250,12 @@ const FormComp = () => {
                                     <input 
                                     id="check" 
                                     type='checkbox' 
-                                    name="check" 
-                                    value={check}
-                                    onChange={e => setCheck(e.target.value)}></input> 
-                                    <label htmlFor="check" className="footer-text text-dark">
+                                    name="check"
+                                    checked={check}
+                                    onChange={e => setCheck(e.target.checked)} /> 
+                                    <label 
+                                    htmlFor="check" 
+                                    className="footer-text text-dark">
                                         The information provided are correct and I will bear the consequences of any false
                                         information
                                     </label>
@@ -233,7 +267,6 @@ const FormComp = () => {
                                 disabled={!getIsFormValid()}>Submit</button>
                         </form>
                     </div>
-                </Container> 
             </div>
         </div>
     )
